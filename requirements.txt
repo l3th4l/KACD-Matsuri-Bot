@@ -8,3 +8,4 @@ bs4==0.0.1
 async-generator==1.10
 async-timeout==3.0.1
 asyncio==3.4.3
+requests
