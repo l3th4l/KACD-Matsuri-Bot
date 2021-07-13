@@ -16,11 +16,11 @@ async def on_ready():
     bot.add_cog(messages.Messages(bot))
 
 def main():
-    with open('config.json') as fh:
-        bot.config = json.load(fh)
+    # with open('config.json') as fh:
+    #     bot.config = json.load(fh)
 
-    bot.run(bot.config['token'])
-    #bot.run(os.environ['token'])
+    # bot.run(bot.config['token'])
+    bot.run(os.environ['token'])
         
 
 
