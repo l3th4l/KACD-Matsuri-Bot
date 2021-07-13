@@ -1,6 +1,7 @@
 import discord 
 import json 
 import messages
+import os
 
 from discord.ext import commands 
 
