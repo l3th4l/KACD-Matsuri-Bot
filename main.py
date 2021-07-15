@@ -24,7 +24,7 @@ def main():
     bot.run(bot.config['token'])
     # bot.run(os.environ['token'])
         
-print("LES GO HAVE SMEX!!! \n UwU")
+print("I'm a very cute bot \n UwU")
 
 if __name__ == "__main__":
     main()
